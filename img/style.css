@@ -11,10 +11,41 @@ body{
 .initial-title{
     width: 100%;
     height: 120px;
+    padding: 10px;
     background-color: white;
+    margin-bottom: 50px;
+}
+
+.logo{
+    vertical-align: auto;
 }
 
 .Title{
     display: inline-block;
     font-size: 70px;
+    line-height: 120px;
+}
+
+.container{
+    height: 70px;
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#first-button{
+    background-color: rgb(5, 223, 252);
+}
+
+#second-button{
+    background-color: white;
 }
